@@ -67,6 +67,6 @@ function animatePress ( button ) {
 document.querySelector("." + button).classList.add("pressed");
 setTimeout( function() {
     document.querySelector("." + button).classList.remove("pressed");
-}, 200);
+}, 100);
 
 }
